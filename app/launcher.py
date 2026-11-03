@@ -1,5 +1,6 @@
 """pip 安装后的 mpt 启动入口，复用现有 WebUI 和 CLI。"""
 
+import utils.session
 import argparse
 import socket
 import subprocess
